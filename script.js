@@ -5,13 +5,29 @@ toggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('light-mode');
 });
 
-// ======= Real-time Clock =======
+// ======= Real-time Clock with Day, Date, Month, Year =======
 function updateTime() {
     const now = new Date();
-    const timeString = now.toLocaleTimeString();
+
+    // Hari dalam bahasa Inggris
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const dayName = days[now.getDay()];
+
+    // Bulan dalam bahasa Inggris
+    const months = ["January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"];
+    const monthName = months[now.getMonth()];
+
+    const date = now.getDate();
+    const year = now.getFullYear();
+    const timeString = now.toLocaleTimeString(); // HH:MM:SS AM/PM
+
+    const fullString = `${dayName}, ${monthName} ${date}, ${year} | ${timeString}`;
+
     const timeDivs = document.querySelectorAll('#currentTime');
-    timeDivs.forEach(div => div.textContent = timeString);
+    timeDivs.forEach(div => div.textContent = fullString);
 }
+
 setInterval(updateTime, 1000);
 updateTime();
 
@@ -80,3 +96,4 @@ if(feedbackForm){
         feedbackForm.reset();
     });
 }
+
