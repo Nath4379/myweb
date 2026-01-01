@@ -21,116 +21,24 @@ const resultsDiv = document.getElementById('results');
 
 if (getBtn) {
   const animeList = [
-    {
-      judul: "Naruto",
-      mood: "excited",
-      time: "night",
-      img: "poster-naruto.jpg"
-    },
-    {
-      judul: "Bocchi The Rock",
-      mood: "excited",
-      time: "morning",
-      img: "poster-bocchi.jpg"
-    },
-    {
-      judul: "Bunny Girl Senpai",
-      mood: "calm",
-      time: "night",
-      img: "poster-bunny-girl-senpai.jpg"
-    },
-    {
-      judul: "Ponyo",
-      mood: "sad",
-      time: "afternoon",
-      img: "poster-Ponyo.jpg"
-    },
-    {
-      judul: "Your Name",
-      mood: "sad",
-      time: "night",
-      img: "poster-your-name.jpg"
-    },
-    {
-      judul: "Vagabond",
-      mood: "calm",
-      time: "night",
-      img: "poster-vagabond.jpg"
-    },
-    {
-      judul: "Vinland Saga",
-      mood: "calm",
-      time: "afternoon",
-      img: "poster-vinland-saga.jpg"
-    },
-    {
-      judul: "Himoto! Umaru-Chan",
-      mood: "excited",
-      time: "morning",
-      img: "poster-umaru-chan.jpg"
-    },
-    {
-        judul: "Chunibyo",
-        mood: "calm",
-        time: "afternoon",
-        img : "gambar/poster chunibyo.jpg"
-    },
-    {
-        judul: "Azumanga Daioh",
-        mood: "excited",
-        time: "morning",
-        img: "gambar/poster azumanga daioh.jpg"
-    },
-    {
-        judul: "berserk",
-        mood: "sad",
-        time: "night",
-        img : "gambar/poster berserk.jpg"
-    },
-    {
-        judul: "My Dress-Up Darling",
-        mood: "happy",
-        time: "afternoon",
-        img : "gambar/poster marin.jpg"
-    },
-    {
-        judul: "The Fragrant Flowre Blooms With Dignity",
-        mood: "happy",
-        time: "morning",
-        img : "gambar/poster my kisah.jpg"
-    },
-    {
-        judul: "Demon Slayer",
-        mood: "sad",
-        time: "night",
-        img: "gambar/poster demon slayer.jpg"
-    },
-
-    {
-        judul: "Komi Can't Communicate",
-        mood: "happy",
-        time: "morning",
-        img : "gambar/poster komi-san.jpg"
-    },
-    {
-        judul: "Jujutsu Kaisen",
-        mood: "calm",
-        time: "night",
-        img : "gambar/poster jujutsu kaisen.jpg"
-    },
-    {
-        judul: "Frieren : Beyond Journey's End",
-        mood: "calm",
-        time: "morning",
-        img : "gambar/poster frieren.jpg"
-    },
-    {
-        judul: "Dandadan",
-        mood: "excited",
-        time: "morning",
-        img : "gambar/poster dandadan.jpg"
-    },   
-
+    { judul: "Naruto", mood: "excited", time: "night" },
+    { judul: "Bocchi The Rock", mood: "excited", time: "morning" },
+    { judul: "Bunny Girl Senpai", mood: "calm", time: "night" },
+    { judul: "Ponyo", mood: "sad", time: "afternoon" },
+    { judul: "Your Name", mood: "sad", time: "night" },
+    { judul: "Vagabond", mood: "calm", time: "night" },
+    { judul: "Vinland Saga", mood: "calm", time: "afternoon" },
+    { judul: "Himouto! Umaru-Chan", mood: "excited", time: "morning" },
+    { judul: "Chunibyo", mood: "calm", time: "afternoon" },
+    { judul: "Azumanga Daioh", mood: "excited", time: "morning" },
+    { judul: "Berserk", mood: "sad", time: "night" },
+    { judul: "My Dress-Up Darling", mood: "happy", time: "afternoon" },
+    { judul: "The Fragrant Flowre Blooms With Dignity", mood: "happy", time: "morning" },
+    { judul: "Demon Slayer", mood: "sad", time: "night" },
+    { judul: "Komi Can't Communicate", mood: "happy", time: "morning" },
+    { judul: "Jujutsu Kaisen", mood: "calm", time: "night" },
+    { judul: "Frieren : Beyond Journey's End", mood: "calm", time: "morning" },
+    { judul: "Dandadan", mood: "excited", time: "morning" }
   ];
 
     getBtn.addEventListener('click', () => {
@@ -151,7 +59,6 @@ if (getBtn) {
             const card = document.createElement('div');
             card.classList.add('anime-card');
             card.innerHTML = `
-                <img src="${a.img}" alt="${a.judul}">
                 <h3>${a.judul}</h3>
             `;
             resultsDiv.appendChild(card);
@@ -173,4 +80,3 @@ if(feedbackForm){
         feedbackForm.reset();
     });
 }
-
