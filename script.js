@@ -25,49 +25,49 @@ if (getBtn) {
       judul: "Naruto",
       mood: "excited",
       time: "night",
-      img: "gambar/poster naruto.jpg"
+      img: "poster-naruto.jpg"
     },
     {
       judul: "Bocchi The Rock",
       mood: "excited",
       time: "morning",
-      img: "gambar/poster bocchi.jpg"
+      img: "poster-bocchi.jpg"
     },
     {
       judul: "Bunny Girl Senpai",
       mood: "calm",
       time: "night",
-      img: "gambar/poster bunny girl senpai.jpg"
+      img: "poster-bunny-girl-senpai.jpg"
     },
     {
       judul: "Ponyo",
       mood: "sad",
       time: "afternoon",
-      img: "gambar/poster Ponyo.jpg"
+      img: "poster-Ponyo.jpg"
     },
     {
       judul: "Your Name",
       mood: "sad",
       time: "night",
-      img: "gambar/poster your name.jpg"
+      img: "poster-your-name.jpg"
     },
     {
       judul: "Vagabond",
       mood: "calm",
       time: "night",
-      img: "gambar/poster vagabond.jpg"
+      img: "poster-vagabond.jpg"
     },
     {
       judul: "Vinland Saga",
       mood: "calm",
       time: "afternoon",
-      img: "gambar/poster vinland saga.jpg"
+      img: "poster-vinland-saga.jpg"
     },
     {
       judul: "Himoto! Umaru-Chan",
       mood: "excited",
       time: "morning",
-      img: "gambar/poster umaru-chan.jpg"
+      img: "poster-umaru-chan.jpg"
     },
     {
         judul: "Chunibyo",
@@ -173,3 +173,4 @@ if(feedbackForm){
         feedbackForm.reset();
     });
 }
+
