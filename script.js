@@ -39,7 +39,7 @@ if(getBtn) {
     { judul: "Bunny Girl Senpai", mood: "calm", time: "night", img: "poster-bunny-girl-senpai.jpg" },
     { judul: "Ponyo", mood: "sad", time: "afternoon", img: "poster-Ponyo.jpg" },
     { judul: "Your Name", mood: "sad", time: "night", img: "poster-your-name.jpg" },
-    { judul: "Vagabond", mood: "calm", time: "night", img: "/poster-vagabond.jpg" },
+    { judul: "Vagabond", mood: "calm", time: "night", img: "poster-vagabond.jpg" },
     { judul: "Vinland Saga", mood: "calm", time: "afternoon", img: "poster-vinland-saga.jpg" },
     { judul: "Himouto! Umaru-Chan", mood: "excited", time: "morning", img: "poster-umaru-chan.jpg" },
     { judul: "Chunibyo", mood: "calm", time: "afternoon", img: "poster-chunibyo.jpg" },
@@ -94,3 +94,4 @@ if(feedbackForm){
         feedbackForm.reset();
     });
 }
+
