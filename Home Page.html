@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniMood - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="navbar">
+            <h1>AniMood</h1>
+            <nav>
+                <a href="Home Page.html">Home</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Form.html">Form</a>
+                <a href="About.html">About</a>
+                <button id="toggleMode">🌙</button>
+            </nav>
+        </div>
+        <div id="currentTime"></div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Selamat Datang di AniMood</h2>
+            <p>Pilih mood & waktu, dan kami rekomendasikan anime untukmu</p>
+        </section>
+
+        <section class="input-section">
+    <h2>Pilih Mood & Waktu</h2>
+    <div class="inputs">
+        <select id="mood">
+             <option value="">Pilih Mood</option>
+            <option value="happy">Happy 😄</option>
+            <option value="sad">Sad 😢</option>
+            <option value="excited">Excited 🤩</option>
+            <option value="calm">Calm 😌</option>
+        </select>
+
+        <select id="time">
+             <option value="">Pilih Waktu</option>
+            <option value="morning">Morning 🌅</option>
+            <option value="afternoon">Afternoon ☀️</option>
+            <option value="evening">Evening 🌇</option>
+            <option value="night">Night 🌙</option>
+        </select>
+
+        <button id="getRecommendation">Cari Anime</button>
+    </div>
+</section>
+
+
+        <section class="results-section">
+            <h2>Rekomendasi Anime</h2>
+            <div id="results" class="anime-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AniMood | Nathan | NIM 251011700951 | Kelas 01SIFP015</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

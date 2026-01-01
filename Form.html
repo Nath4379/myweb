@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniMood - Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="navbar">
+            <h1>AniMood</h1>
+            <nav>
+                <a href="Home Page.html">Home</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Form.html">Form</a>
+                <a href="About.html">About</a>
+                <button id="toggleMode">🌙</button>
+            </nav>
+        </div>
+        <div id="currentTime"></div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Formulir Feedback</h2>
+            <p>Isi data berikut agar kami bisa memberi rekomendasi lebih baik!</p>
+        </section>
+
+        <section class="form-section">
+            <form id="feedbackForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="mood">Mood Saat Ini:</label>
+                <select id="moodForm">
+                    <option value="">Pilih Mood</option>
+                    <option value="happy">Happy 😄</option>
+                    <option value="sad">Sad 😢</option>
+                    <option value="excited">Excited 🤩</option>
+                    <option value="calm">Calm 😌</option>
+                </select>
+
+                <label for="comment">Komentar:</label>
+                <textarea id="comment" rows="4" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+            <div id="formMessage"></div>
+        </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 AniMood | Nathan | NIM 251011700951 | Kelas 01SIFP015</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
