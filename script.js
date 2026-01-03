@@ -72,12 +72,17 @@ if (getBtn) {
         }
 
         filtered.forEach(a => {
-            const card = document.createElement('div');
-            card.classList.add('anime-card');
-            card.innerHTML = `
-                <h3>${a.judul}</h3>
-            `;
-            resultsDiv.appendChild(card);
+        const card = document.createElement('div');
+        card.classList.add('anime-card');
+
+        card.innerHTML = `
+            <img src="${a.img}" alt="${a.judul}" class="anime-img">
+            <h3>${a.judul}</h3>
+            <p>Mood: ${a.mood}</p>
+            <p>Waktu: ${a.time}</p>
+        `;
+
+        resultsDiv.appendChild(card);
         });
     });
 }
@@ -97,6 +102,7 @@ if(feedbackForm){
         feedbackForm.reset();
     });
 }
+
 
 
 
