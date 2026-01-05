@@ -37,21 +37,21 @@ const resultsDiv = document.getElementById('results');
 
 if (getBtn) {
   const animeList = [
-    { judul: "Ponyo", mood: "sad", time: "afternoon", img: "gambar/poster-Ponyo.jpg" },
-    { judul: "Your Name", mood: "sad", time: "night", img: "gambar/poster-your-name.jpg" },
-    { judul: "Vagabond", mood: "calm", time: "night", img: "gambar/poster-vagabond.jpg" },
-    { judul: "Vinland Saga", mood: "calm", time: "afternoon", img: "gambar/poster-vinland-saga.jpg" },
-    { judul: "Himouto! Umaru-Chan", mood: "excited", time: "morning", img: "gambar/poster-umaru-chan.jpg" },
-    { judul: "Chunibyo", mood: "calm", time: "afternoon", img: "gambar/poster-chunibyo.jpg" },
-    { judul: "Azumanga Daioh", mood: "excited", time: "morning", img: "gambar/poster-azumanga-daioh.jpg" },
-    { judul: "Berserk", mood: "sad", time: "night", img: "gambar/poster-berserk.jpg" },
-    { judul: "My Dress-Up Darling", mood: "happy", time: "afternoon", img: "gambar/poster-marin.jpg" },
-    { judul: "The Fragrant Flower Blooms With Dignity", mood: "happy", time: "morning", img: "gambar/poster-fragrant-flower.jpg" },
-    { judul: "Demon Slayer", mood: "sad", time: "night", img: "gambar/poster-demon-slayer.jpg" },
-    { judul: "Komi Can't Communicate", mood: "happy", time: "morning", img: "gambar/poster-komi.jpg" },
-    { judul: "Jujutsu Kaisen", mood: "calm", time: "night", img: "gambar/poster-jjk.jpg" },
-    { judul: "Frieren: Beyond Journey's End", mood: "calm", time: "morning", img: "gambar/poster-Frieren.jpg" },
-    { judul: "Dandadan", mood: "excited", time: "morning", img: "gambar/poster-dandadan.jpg" }
+    { judul: "Ponyo", mood: "sad", time: "afternoon", img: "poster-Ponyo.jpg" },
+    { judul: "Your Name", mood: "sad", time: "night", img: "poster-your-name.jpg" },
+    { judul: "Vagabond", mood: "calm", time: "night", img: "poster-vagabond.jpg" },
+    { judul: "Vinland Saga", mood: "calm", time: "afternoon", img: "poster-vinland-saga.jpg" },
+    { judul: "Himouto! Umaru-Chan", mood: "excited", time: "morning", img: "poster-umaru-chan.jpg" },
+    { judul: "Chunibyo", mood: "calm", time: "afternoon", img: "poster-chunibyo.jpg" },
+    { judul: "Azumanga Daioh", mood: "excited", time: "morning", img: "poster-azumanga-daioh.jpg" },
+    { judul: "Berserk", mood: "sad", time: "night", img: "poster-berserk.jpg" },
+    { judul: "My Dress-Up Darling", mood: "happy", time: "afternoon", img: "poster-marin.jpg" },
+    { judul: "The Fragrant Flower Blooms With Dignity", mood: "happy", time: "morning", img: "poster-fragrant-flower.jpg" },
+    { judul: "Demon Slayer", mood: "sad", time: "night", img: "poster-demon-slayer.jpg" },
+    { judul: "Komi Can't Communicate", mood: "happy", time: "morning", img: "poster-komi.jpg" },
+    { judul: "Jujutsu Kaisen", mood: "calm", time: "night", img: "poster-jjk.jpg" },
+    { judul: "Frieren: Beyond Journey's End", mood: "calm", time: "morning", img: "poster-Frieren.jpg" },
+    { judul: "Dandadan", mood: "excited", time: "morning", img: "poster-dandadan.jpg" }
   ];
 
     getBtn.addEventListener('click', () => {
@@ -99,6 +99,7 @@ if(feedbackForm){
         feedbackForm.reset();
     });
 }
+
 
 
 
