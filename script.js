@@ -46,10 +46,10 @@ if (getBtn) {
     { judul: "Azumanga Daioh", mood: "excited", time: "morning", img: "poster-azumanga-daioh.jpg" },
     { judul: "Berserk", mood: "sad", time: "night", img: "poster-berserk.jpg" },
     { judul: "My Dress-Up Darling", mood: "happy", time: "afternoon", img: "poster-marin.jpg" },
-    { judul: "The Fragrant Flower Blooms With Dignity", mood: "happy", time: "morning", img: "poster-fragrant-flower.jpg" },
+    { judul: "The Fragrant Flower Blooms With Dignity", mood: "happy", time: "morning", img: "poster-my-kisah.jpg" },
     { judul: "Demon Slayer", mood: "sad", time: "night", img: "poster-demon-slayer.jpg" },
-    { judul: "Komi Can't Communicate", mood: "happy", time: "morning", img: "poster-komi.jpg" },
-    { judul: "Jujutsu Kaisen", mood: "calm", time: "night", img: "poster-jjk.jpg" },
+    { judul: "Komi Can't Communicate", mood: "happy", time: "morning", img: "poster-komi-san.jpg" },
+    { judul: "Jujutsu Kaisen", mood: "calm", time: "night", img: "poster-jujutsu-kaisen.jpg" },
     { judul: "Frieren: Beyond Journey's End", mood: "calm", time: "morning", img: "poster-Frieren.jpg" },
     { judul: "Dandadan", mood: "excited", time: "morning", img: "poster-dandadan.jpg" }
   ];
@@ -99,6 +99,7 @@ if(feedbackForm){
         feedbackForm.reset();
     });
 }
+
 
 
 
